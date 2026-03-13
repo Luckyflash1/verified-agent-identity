@@ -21,7 +21,6 @@ jobs:
 
       - name: Install Verified Agent Identity
         run: |
-          sleep 5
           clawhub install verified-agent-identity
 
       - name: Install dependencies
